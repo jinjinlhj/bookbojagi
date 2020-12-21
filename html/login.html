@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/join.css">
+    <title>북보자기</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo center">
+            <a href="index.html"><img src="../images/logo.png" /></a>
+        </div>
+
+    </header>
+    <main class="main center">
+        <div class="join-form">
+            <div class="join-form__title">
+                로그인
+            </div>
+            <form  method="POST" action="method.php" onsubmit="return !!(idCheck() & passwordCheck() & emailChk() ); ">
+                <div class="userid">
+                    <input type="text" name="userid" id="userid" placeholder="아이디" onblur="idCheck()">
+                    <div id="userid__chk" class="join-form__chk"></div>
+                </div>
+                <div class="password">
+                    <input type="password" name="password" id="password" placeholder="비밀번호" onblur="passwordCheck()">
+                    
+
+                </div>
+                
+                <input id="btn_submit" onclick="joinform_check()" type="submit" value="로그인" />
+				<input id="btn_submit" onclick="joinform_check()" type="submit" value="회원가입" style="background-color:white; color:black; border:solid 1px #ccc;"/>
+            </form>
+        </div>
+
+    </main>
+    
+</body>
+
+</html>

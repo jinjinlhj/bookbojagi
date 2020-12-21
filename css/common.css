@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    width:1080px;
+    margin: 0 auto;
+}
+button {
+	cursor:pointer;
+
+}
+a:hover {
+
+    text-decoration: none;
+    color:black;
+}
+.mt10 {
+    margin-top:10px;
+}
+.mt20 {
+    margin-top:20px;
+}
+.mb10 {
+    margin-bottom:10px;
+}
+.mb20 {
+    margin-bottom:20px;
+}
+.fs14 {
+    font-size:14px;
+}
+.fs15 {
+    font-size:15px;
+}
+.fs16 {
+    font-size: 16px;
+}

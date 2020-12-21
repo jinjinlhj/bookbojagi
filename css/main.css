@@ -1,0 +1,85 @@
+.main__newbook {
+	padding: 20px 0;
+}
+.newbook__firstslide {
+	display: flex;
+	width: 130px;
+
+	
+}
+.newbook__title {
+	padding: 20px 10px;
+	margin-bottom:10px;
+}
+.newbook__title p{
+	font-size: 25px;
+}
+.newbook__firstslide .newbook__firstslide__book {
+	margin: 0 10px;
+}
+.newbook__firstslide .newbook__firstslide__book img {
+	width:135px;
+	height:200px;
+
+}
+.newbook__firstslide__title {
+	line-height: 120%;
+}
+.newbook__firstslide__author {
+	font-size: 13px;
+	margin-top:10px;
+}
+.main__newbook .carousel-control-next{
+	width:2%;
+	
+}
+.main__newbook .carousel-control-prev {
+	margin-left:-50px;
+	width:2%;
+}
+.main__newbook .carousel-control-next {
+	margin-right:-50px;
+}
+.main__newbook .carousel-control-prev-icon {
+	background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	
+}
+.main__newbook .carousel-control-next-icon {
+
+	background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+	/* background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); */
+}
+.bestbook__content {
+	display:flex;
+	margin:10px 0;
+}
+.bestbook__content .bestbook__content__rank {
+	padding: 85px 20px;
+    font-size: 30px;
+
+}
+.bestbook__content__right {
+	padding: 20px 10px;
+}
+.bestbook__title {
+	    padding: 20px 10px;
+		
+}
+.bestbook__title p {
+	font-size:25px;
+}
+.carousel-item img {
+	width:100%;
+	height:450px;
+}
+.bestbook__content__right .bestbook__content__right__title {
+	font-size: 17px;
+	
+}
+.bestbook__content__right .bestbook__content__right__author {
+	font-size: 13px;
+	margin: 10px 0;
+}
+.bestbook__content__right .bestbook__content__right__intro {
+	line-height: 180%;
+}
